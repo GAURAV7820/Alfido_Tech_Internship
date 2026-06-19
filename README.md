@@ -12,7 +12,7 @@ This repository contains all the tasks completed as part of the **Alfido Tech In
 * Includes sections: Home, Skills, Projects, Contact
 * Fully responsive design
 
-🔗 Live: https://gaurav7820.github.io/portfolio/
+🔗 Live: https://gaurav7820.github.io/Alfido_Tech_Internship/Task-1-Portfolio/
 
 ---
 
