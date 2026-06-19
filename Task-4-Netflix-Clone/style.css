@@ -1,41 +1,83 @@
+/* Global */
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   background: black;
   color: white;
 }
 
-header {
+/* Navbar */
+.navbar {
   padding: 20px;
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
 }
 
 .logo {
   color: red;
+  font-size: 28px;
 }
 
+/* Banner */
 .banner {
-  height: 60vh;
+  height: 80vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
   padding: 40px;
+
+  background:
+    linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.4)),
+    url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4');
+
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  max-width: 400px;
+}
+
+.banner h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 18px;
+  margin: 10px 0;
 }
 
 button {
-  width: 150px;
-  padding: 10px;
+  padding: 12px 20px;
   background: red;
   border: none;
   color: white;
+  font-size: 16px;
   cursor: pointer;
 }
 
+button:hover {
+  background: darkred;
+}
+
+/* Rows */
 .row {
   padding: 20px;
 }
 
+.row h2 {
+  margin-bottom: 10px;
+}
+
+.movies {
+  display: flex;
+  overflow-x: auto;
+}
+
 .movies img {
-  margin: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
   transition: transform 0.3s;
 }
 
