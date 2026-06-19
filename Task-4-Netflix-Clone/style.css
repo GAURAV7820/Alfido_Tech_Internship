@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: black;
+  color: white;
+}
+
+header {
+  padding: 20px;
+}
+
+.logo {
+  color: red;
+}
+
+.banner {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.row {
+  padding: 20px;
+}
+
+.movies img {
+  margin: 5px;
+  transition: transform 0.3s;
+}
+
+.movies img:hover {
+  transform: scale(1.1);
+}
